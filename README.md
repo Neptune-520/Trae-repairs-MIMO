@@ -1,7 +1,7 @@
 # Trae-repairs-MIMO
 临时修复trae使用mimo模型时无法问第二个问题，报错的问题
 
-#### 要在powershell中运行
+#### 要在powershell中运行！！！
 
 ### token-plan使用（api Key以tp开头）
 
