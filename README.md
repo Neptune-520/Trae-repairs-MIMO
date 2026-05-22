@@ -5,12 +5,17 @@
 
 1.下载proxy.py
 
-2.运行
+2.安装依赖
+```
+pip install fastapi uvicorn httpx
+```
+
+3.运行
 ```
 $env:UPSTREAM_API_KEY="你的api Key"
 uvicorn proxy:app --host 127.0.0.1 --port 8000
 ```
-3.在trae软件中添加模型里，自定义请求地址改为：```http://127.0.0.1:8000/v1```
+4.在trae软件中添加模型里，自定义请求地址改为：```http://127.0.0.1:8000/v1```
 
 ### 其他计划（api Key以sk开头）
 
